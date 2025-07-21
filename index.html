@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combustômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Combustômetro</h1>
+    <div class="main-container">
+        <div class="formulario">
+            <h2>Preencha os dados</h2> <br>
+
+            <form action="" class="entradas">
+                <input type="number" id="distancia" placeholder="Distância percorrida em Km" max="20"><br><br>
+                <input type="number" id="consumo" placeholder="Consumo médio por Km/L" max="20"><br><br>
+                <input type="number" id="quantidade" placeholder="Quantidade de postos pesquisados" max="20"><br><br>
+            </form>
+
+            <button onclick="calcularResultados()" class="enviar">Calcular</button>
+            <button onclick="limparResultados()" class="limpar">Limpar</button>
+        </div>
+        <div id="resultado-lista" class="resultado">
+            <h2>Resultados</h2> <br>
+           
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
