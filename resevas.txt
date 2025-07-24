@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+body {
+  width: 100%;   /* se adapta à largura do container */
+  font-size: 1em;
+  padding: 2%;
+}
+
+footer {
+  background-color: #1b357e;
+}
