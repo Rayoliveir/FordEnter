@@ -1,7 +1,77 @@
-/* IMPORTAR O HEADER E FOOTER DO CSS ANTERIOR */
-@import url("home.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Conteúdo superior com vídeo e texto lado a lado */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  color: rgb(10, 0, 66);
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Linha divisória */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+
+
+footer {
+  background-color: #00274d;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.footer-social a {
+  margin-left: 15px;
+}
+
+.footer-social img {
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
+
 .conteudo-superior {
   display: flex;
   flex-wrap: wrap;
