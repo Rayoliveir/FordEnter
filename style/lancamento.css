@@ -23,9 +23,16 @@ header img {
   height: 50px;
 }
 
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav a {
-  color: rgb(10, 0, 66);
-  margin-right: 20px;
+  color: #1351d8;
+  margin-right: 150px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -145,6 +152,22 @@ footer {
 
 .botao-comparar button:hover {
   background-color: #0050a0;
+}
+
+.descri-car{
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.img-information{
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 20px auto;
 }
 
 @media (max-width: 768px) {

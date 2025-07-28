@@ -23,9 +23,16 @@ header img {
   height: 50px;
 }
 
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav a {
-  color: rgb(10, 0, 66);
-  margin-left: 20px;
+  color: #1351d8;
+  margin-right: 150px;
   text-decoration: none;
   font-weight: bold;
 }
