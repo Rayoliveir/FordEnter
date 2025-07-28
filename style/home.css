@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Header */
 header {
   color: white;
   padding: 10px 20px;
@@ -36,7 +34,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Linha divisória */
 hr {
   border: none;
   height: 2px;
@@ -44,7 +41,6 @@ hr {
   margin: 10px 0;
 }
 
-/* Main content */
 main {
   text-align: center;
   padding: 20px;
@@ -65,7 +61,13 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
 }
+
 
 .footer-logo img {
   height: 50px;
@@ -84,8 +86,6 @@ footer {
   transform: scale(1.1);
 }
 
-
-/* Responsividade básica */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
