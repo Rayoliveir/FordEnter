@@ -17,6 +17,13 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
 header img {
@@ -50,6 +57,8 @@ hr {
 main {
     padding: 20px 50px;
     padding-bottom: 120px; /* Adjust padding to make space for the fixed footer */
+    padding-top: 80px; /* Espaço para o header fixo */
+    margin-top: 20px; /* Espaço extra para header fixo */
 }
 
 .conteudo-superior {
