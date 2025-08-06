@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #333;
 }
 
@@ -67,19 +67,18 @@ footer {
   height: 50px;
 }
 
-.footer-social a {
-  margin-left: 15px;
+.copyright{
+  margin-right: 50px;
+  text-align: center; 
+  font-size: 12px; 
+  color: #888;
+
 }
 
-.footer-social img {
-  height: 30px;
-  transition: transform 0.2s;
+.redes-sociais {
+  display: flex;
+  align-items: center;
 }
-
-.footer-social img:hover {
-  transform: scale(1.1);
-}
-
 main {
   display: flex;
   flex-wrap: wrap;
@@ -110,6 +109,28 @@ main select {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+main textarea {
+  width: 400px;
+  max-width: 100%;
+  resize: vertical;
+  height: 100px;
+  max-height: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+main button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1351d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {

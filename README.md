@@ -12,8 +12,6 @@ A empresa Ford está lançando um novo veículo e, portanto, decidiu reformular 
     * Explicar a hierarquia no CSS aplicado em formulário e tabelas. 
     * Criar páginas responsivas utilizando CSS avançado e fontes externas.
 
-
-
 ## 📚 Objetivos de Aprendizagem
 - Criar páginas web com HTML e CSS.
 - Utilizar classes e pseudoclasses para estilização eficiente.
